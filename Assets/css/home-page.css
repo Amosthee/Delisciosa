@@ -7,25 +7,25 @@ scroll-behavior: smooth;
 
 /*************************Fonts**************************/
 
-@font-face { font-family: agency-fb;  src: url(../../assets/fonts/agency-fb/AGENCYB.TTF); }
-@font-face { font-family: brusher;  src: url(../../assets/fonts/brusher/Brusher.ttf); }
-@font-face { font-family: calibri;  src: url(../../assets/fonts/calibri/calibri.ttf); }
-@font-face { font-family: calibri;  src: url(../../assets/fonts/calibri/calibrib.ttf); }
-@font-face { font-family: calibri;  src: url(../../assets/fonts/calibri/calibril.ttf); }
-@font-face { font-family: caviar-dreams;  src: url(../../assets/fonts/caviar-dreams/CaviarDreams.ttf); }
+@font-face { font-family: 'agency-fb';  src: url(../../assets/fonts/agency-fb/AGENCYB.TTF); }
+@font-face { font-family: 'brusher';  src: url(../../assets/fonts/brusher/Brusher.ttf); }
+@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibri/calibri.ttf); }
+@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibri/calibrib.ttf); }
+@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibri/calibril.ttf); }
+@font-face { font-family: 'caviar-dreams';  src: url(../../assets/fonts/caviar-dreams/CaviarDreams.ttf); }
 /*@font-face { font-family: caviar-dreams;  src: url(../../assets/fonts/caviar-dreams/CaviarDreams_Bold.ttf); }*/
-@font-face { font-family: corbel;  src: url(../../assets/fonts/corbel/corbel.ttf); }
-@font-face { font-family: corbel;  src: url(../../assets/fonts/corbel/corbelb.ttf); }
-@font-face { font-family: corbel;  src: url(../../assets/fonts/corbel/corbell.ttf); }
-@font-face { font-family: edo-sz;  src: url(../../assets/fonts/edo-sz/edosz.ttf); }
-@font-face { font-family: lato;  src: url(../../assets/fonts/lato/Lato-Bold.ttf); }
-@font-face { font-family: lato;  src: url(../../assets/fonts/lato/Lato-Light.ttf); }
-@font-face { font-family: lato;  src: url(../../assets/fonts/lato/Lato-Medium.ttf); }
-@font-face { font-family: lato;  src: url(../../assets/fonts/lato/Lato-Regular.ttf); }
-@font-face { font-family: lato;  src: url(../../assets/fonts/lato/Lato-Thin.ttf); }
-@font-face { font-family: myriad-pro;  src: url(../../assets/fonts/myriad-pro/MyriadPro-Bold.otf); }
-@font-face { font-family: myriad-pro;  src: url(../../assets/fonts/myriad-pro/MyriadPro-Regular.otf); }
-@font-face { font-family: myriad-pro;  src: url(../../assets/fonts/myriad-pro/MyriadPro-Semibold.otf); }
+@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbel/corbel.ttf); }
+@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbel/corbelb.ttf); }
+@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbel/corbell.ttf); }
+@font-face { font-family: 'edo-sz';  src: url(../../assets/fonts/edo-sz/edosz.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Bold.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Light.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Medium.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Regular.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Thin.ttf); }
+@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/myriad-pro/MyriadPro-Bold.otf); }
+@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/myriad-pro/MyriadPro-Regular.otf); }
+@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/myriad-pro/MyriadPro-Semibold.otf); }
 
 
 /***********************************************************/
@@ -1037,7 +1037,7 @@ scroll-behavior: smooth;
 .credits-div p {
 	font-family: caviar-dreams, sans-serif;
 }
-.credits-div img {
+#acs-logo {
 	width: 25px;
 }
 
