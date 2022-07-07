@@ -7,25 +7,25 @@ scroll-behavior: smooth;
 
 /*************************Fonts**************************/
 
-@font-face { font-family: 'agency-fb';  src: url(../../assets/fonts/agency-fb/AGENCYB.TTF); }
-@font-face { font-family: 'brusher';  src: url(../../assets/fonts/brusher/Brusher.ttf); }
-@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibri/calibri.ttf); }
-@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibri/calibrib.ttf); }
-@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibri/calibril.ttf); }
-@font-face { font-family: 'caviar-dreams';  src: url(../../assets/fonts/caviar-dreams/CaviarDreams.ttf); }
+@font-face { font-family: 'agency-fb';  src: url(../../assets/fonts/AGENCYB.TTF); }
+@font-face { font-family: 'brusher';  src: url(../../assets/fonts/Brusher.ttf); }
+@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibri.ttf); }
+@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibrib.ttf); }
+@font-face { font-family: 'calibri';  src: url(../../assets/fonts/calibril.ttf); }
+@font-face { font-family: 'caviar-dreams';  src: url(../../assets/fonts/CaviarDreams.ttf); }
 /*@font-face { font-family: caviar-dreams;  src: url(../../assets/fonts/caviar-dreams/CaviarDreams_Bold.ttf); }*/
-@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbel/corbel.ttf); }
-@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbel/corbelb.ttf); }
-@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbel/corbell.ttf); }
-@font-face { font-family: 'edo-sz';  src: url(../../assets/fonts/edo-sz/edosz.ttf); }
-@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Bold.ttf); }
-@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Light.ttf); }
-@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Medium.ttf); }
-@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Regular.ttf); }
-@font-face { font-family: 'lato';  src: url(../../assets/fonts/lato/Lato-Thin.ttf); }
-@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/myriad-pro/MyriadPro-Bold.otf); }
-@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/myriad-pro/MyriadPro-Regular.otf); }
-@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/myriad-pro/MyriadPro-Semibold.otf); }
+@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbel.ttf); }
+@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbelb.ttf); }
+@font-face { font-family: 'corbel';  src: url(../../assets/fonts/corbell.ttf); }
+@font-face { font-family: 'edo-sz';  src: url(../../assets/fonts/edosz.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/Lato-Bold.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/Lato-Light.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/Lato-Medium.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/Lato-Regular.ttf); }
+@font-face { font-family: 'lato';  src: url(../../assets/fonts/Lato-Thin.ttf); }
+@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/MyriadPro-Bold.otf); }
+@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/MyriadPro-Regular.otf); }
+@font-face { font-family: 'myriad-pro';  src: url(../../assets/fonts/MyriadPro-Semibold.otf); }
 
 
 /***********************************************************/
@@ -1039,6 +1039,7 @@ scroll-behavior: smooth;
 }
 #acs-logo {
 	width: 25px;
+	height: 25px;
 }
 
 .host-logo {
@@ -1049,6 +1050,7 @@ scroll-behavior: smooth;
 	padding: 2px;
 	vertical-align: middle;
 	font-family: caviar-dreams, sans-serif;
+	height: 25px;
 }
 
 .menu-hover {
@@ -1344,7 +1346,7 @@ scroll-behavior: smooth;
 }
 #aboutUs-header-div02 {background-size: 50%;}
 .about-image { width: 60%; height: 25%; object-fit: cover; }
-.about-text { font-size: 0.8rem; height: 40%; /*overflow-y: scroll;*/ font-weight: bold; }
+.about-text { font-size: 0.8rem; height: 40%; overflow-y: scroll; font-weight: bold; }
 .about-text-header{ width: 100%; font-size: 1rem; text-transform: uppercase; }
 .next {
 	
