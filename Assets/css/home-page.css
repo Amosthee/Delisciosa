@@ -244,8 +244,8 @@ scroll-behavior: smooth;
 }
 
 #section02 {
-	/*background: #090d24;*/
-	background: linear-gradient(0deg, #6e6e6e, #10121ceb);
+	background: #090d24;
+	/*background: linear-gradient(0deg, #6e6e6e, #10121ceb);*/
 	margin: 0;
 	padding-bottom: 20px;
 }
@@ -257,28 +257,30 @@ scroll-behavior: smooth;
 	height: 25vh;
 	margin: 5px;
 	padding: 20px;
+	display: none;
 	
 
 }
 
 .about-text {
 	width: 80%;
-	margin: 3px auto;
-	padding: 20px 10px;
-	font-family: lato,sans-serif;
-	color: #444444;
-	
+    margin: 3px auto;
+    text-align: right;
+    padding: 20px 10px;
+    font-weight: 900;
+    font-family: 'lato';
+    color: #444444;
 }
 
 .about-text-header {
 	font-size: 1.5rem;
-	font-weight: bold;
-	padding: 10px;
-	width: 80%;
+    font-weight: bold;
+    padding: 20px;
+    width: 80%;
+    font-family: 'edo-sz';
     margin: 0 auto;
-    border-top: solid 1px;
+    /* border-top: solid 1px; */
     border-bottom: solid 1px;
-	
 
 }
 .about-us-cards {
@@ -547,7 +549,7 @@ scroll-behavior: smooth;
 #section04 {
 
 	color: white;
-	background: linear-gradient(rgba(29, 29, 29, 0.7), rgba(29, 29, 29, 0.7)), url("../images/Spices-background01.jpg");
+	background: linear-gradient(rgba(29, 29, 29, 0.4), rgba(29, 29, 29, 0.4)), url("../images/Spices-background01.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -566,10 +568,15 @@ scroll-behavior: smooth;
     text-align: center;
 }
 .question h2 {
-	margin: 20px 0;
-	font-family: lato,sans-serif;
-	cursor: pointer;
+	 margin: 20px 0;
+    font-family: 'edo-sz';
+    cursor: pointer;
+    color: green;
+    background: linear-gradient(45deg, #d0ffc4, #ffffff00);
+    font-size: xxx-large;
+    text-align: right;
 }
+
 
 .question h2:hover {
 
@@ -580,6 +587,7 @@ scroll-behavior: smooth;
 .explanation {
 	margin: 20px 20px 60px 20px;
 	color: grey;
+	text-align: left;
 	font-family: lato,sans-serif;
 }
 
